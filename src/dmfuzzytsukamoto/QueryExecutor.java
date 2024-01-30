@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public  class QueryExecutor {
     private ConnectionAttribute kon;

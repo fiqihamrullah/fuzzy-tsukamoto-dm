@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class FormHimpunan extends javax.swing.JDialog
 {

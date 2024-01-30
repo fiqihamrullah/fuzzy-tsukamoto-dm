@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class FormAturan extends javax.swing.JDialog {
      List<Aturan> listaturan;

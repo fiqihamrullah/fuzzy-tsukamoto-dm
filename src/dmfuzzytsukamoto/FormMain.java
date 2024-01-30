@@ -12,7 +12,7 @@ package dmfuzzytsukamoto;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class FormMain extends javax.swing.JFrame 
 {

@@ -6,7 +6,7 @@ package dmfuzzytsukamoto;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class Dmfuzzytsukamoto {
 

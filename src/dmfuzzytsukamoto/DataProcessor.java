@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class DataProcessor {
     QueryExecutor qe;

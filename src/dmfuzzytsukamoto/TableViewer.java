@@ -7,7 +7,7 @@ import java.util.List;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class TableViewer 
 {

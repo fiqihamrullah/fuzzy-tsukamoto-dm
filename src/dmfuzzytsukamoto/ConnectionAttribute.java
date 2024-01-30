@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class ConnectionAttribute {
    private String url;

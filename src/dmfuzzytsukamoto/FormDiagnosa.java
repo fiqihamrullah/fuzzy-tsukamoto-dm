@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author TOSHIBA
+ * @author Fiqih Amrullah
  */
 public class FormDiagnosa extends javax.swing.JDialog {
      List<Variable> listvariable;
