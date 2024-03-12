@@ -7,8 +7,7 @@ package dmfuzzytsukamoto;
 import java.awt.Dimension;
 import java.awt.Frame;
 import java.awt.Toolkit;
-import java.awt.Window;
- 
+import java.awt.Window; 
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -41,7 +40,7 @@ public class Util {
         try{
 
 
-      UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+      UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
       SwingUtilities.updateComponentTreeUI(f);
       }catch (ClassNotFoundException ex){
               JOptionPane.showMessageDialog(f,"Kelas tak ditemukan.. ulangi installasi");
@@ -57,12 +56,13 @@ public class Util {
   public static void initNimbusTheme()
   {
         try {
-            for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
-                
-                if ("Metal".equals(info.getName())) {
+            for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) 
+            {
+                System.out.print(info.getName());System.out.println(" ");System.out.println(info.getClassName());
+              /*  if ("Windows".equals(info.getName())) {
                     UIManager.setLookAndFeel(info.getClassName());
                     break;
-                }
+                }*/
             }
         } catch (Exception ex) {
            
@@ -71,8 +71,4 @@ public class Util {
 
   }
           
-
-
 }
-
-

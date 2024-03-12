@@ -21,9 +21,10 @@ public class FrmLogin extends javax.swing.JFrame {
 
     /** Creates new form FrmLogin */
     public FrmLogin() {
-          initComponents();
-          Util.LookAndFeel(this);
+          initComponents();          
           Util.TengahWindow(this);
+          Util.LookAndFeel(this);
+         
       
     }
 
@@ -154,8 +155,7 @@ public class FrmLogin extends javax.swing.JFrame {
      
             // TODO add your handling code here:
 
-            Login login = new Login();
-          
+            Login login = new Login();          
 
             if (login.CheckUser(jTxtNmPengguna.getText(),String.valueOf(jPwd.getPassword()) ))
             {
