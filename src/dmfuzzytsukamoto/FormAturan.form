@@ -180,6 +180,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="jBtnTambahAturan">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gbr/plus_16.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tambah"/>
       </Properties>
       <Events>
@@ -187,12 +190,15 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="18" y="248" width="96" height="35"/>
+          <AbsoluteConstraints x="150" y="250" width="96" height="35"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="jBtnHapusAturan">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gbr/trash_16.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Hapus"/>
       </Properties>
       <Events>
@@ -200,7 +206,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="120" y="248" width="99" height="35"/>
+          <AbsoluteConstraints x="250" y="250" width="99" height="35"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -313,6 +319,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="jBtnTutup">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gbr/exit.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tutup"/>
       </Properties>
       <Events>
@@ -326,6 +335,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="jBtnTambahDetailAturan">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gbr/plus_16.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tambah"/>
       </Properties>
       <Events>
@@ -339,6 +351,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="jBtnHapusDetailAturan">
       <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/gbr/trash_16.png"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Hapus"/>
       </Properties>
       <Events>

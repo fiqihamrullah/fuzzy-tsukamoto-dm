@@ -189,21 +189,23 @@ public class FormAturan extends javax.swing.JDialog {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 131, -1, 100));
 
+        jBtnTambahAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/plus_16.png"))); // NOI18N
         jBtnTambahAturan.setText("Tambah");
         jBtnTambahAturan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jBtnTambahAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnTambahAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(18, 248, 96, 35));
+        getContentPane().add(jBtnTambahAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 96, 35));
 
+        jBtnHapusAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/trash_16.png"))); // NOI18N
         jBtnHapusAturan.setText("Hapus");
         jBtnHapusAturan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jBtnHapusAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnHapusAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 248, 99, 35));
+        getContentPane().add(jBtnHapusAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 99, 35));
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Detail Aturan"));
 
@@ -272,6 +274,7 @@ public class FormAturan extends javax.swing.JDialog {
 
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 303, 442, 250));
 
+        jBtnTutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/exit.png"))); // NOI18N
         jBtnTutup.setText("Tutup");
         jBtnTutup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -280,6 +283,7 @@ public class FormAturan extends javax.swing.JDialog {
         });
         getContentPane().add(jBtnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(686, 564, 102, 47));
 
+        jBtnTambahDetailAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/plus_16.png"))); // NOI18N
         jBtnTambahDetailAturan.setText("Tambah");
         jBtnTambahDetailAturan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -288,6 +292,7 @@ public class FormAturan extends javax.swing.JDialog {
         });
         getContentPane().add(jBtnTambahDetailAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(673, 154, 109, 36));
 
+        jBtnHapusDetailAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/trash_16.png"))); // NOI18N
         jBtnHapusDetailAturan.setText("Hapus");
         jBtnHapusDetailAturan.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
