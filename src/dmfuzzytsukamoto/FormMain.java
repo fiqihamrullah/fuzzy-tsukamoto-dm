@@ -41,6 +41,7 @@ public class FormMain extends javax.swing.JFrame
         jBtnTutup = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Menu Utama");
 
         jBtnVariable.setText("Variabel");
         jBtnVariable.addActionListener(new java.awt.event.ActionListener() {

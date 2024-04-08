@@ -102,6 +102,7 @@ public class FormAturan extends javax.swing.JDialog {
         jBtnHapusDetailAturan = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Kelola Aturan (Rule Base)");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 153, 153));
@@ -114,9 +115,9 @@ public class FormAturan extends javax.swing.JDialog {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(681, Short.MAX_VALUE))
+                .addGap(16, 16, 16)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 773, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(21, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -126,7 +127,7 @@ public class FormAturan extends javax.swing.JDialog {
                 .addContainerGap(30, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 110));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 810, 110));
 
         jTblAturan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -196,7 +197,7 @@ public class FormAturan extends javax.swing.JDialog {
                 jBtnTambahAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnTambahAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 96, 35));
+        getContentPane().add(jBtnTambahAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 240, 96, 35));
 
         jBtnHapusAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/trash_16.png"))); // NOI18N
         jBtnHapusAturan.setText("Hapus");
@@ -205,7 +206,7 @@ public class FormAturan extends javax.swing.JDialog {
                 jBtnHapusAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnHapusAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 250, 99, 35));
+        getContentPane().add(jBtnHapusAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, 99, 35));
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Detail Aturan"));
 
@@ -231,12 +232,15 @@ public class FormAturan extends javax.swing.JDialog {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5)
-                    .addComponent(jCmbVariable, 0, 190, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jCmbVariable, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel5))
+                        .addGap(0, 188, Short.MAX_VALUE))
                     .addComponent(jCmbHimpunan, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -252,7 +256,7 @@ public class FormAturan extends javax.swing.JDialog {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 131, -1, -1));
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 131, 270, -1));
 
         jTblDetailAturan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -272,7 +276,7 @@ public class FormAturan extends javax.swing.JDialog {
         });
         jScrollPane2.setViewportView(jTblDetailAturan);
 
-        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 303, 442, 250));
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(365, 303, 430, 250));
 
         jBtnTutup.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/exit.png"))); // NOI18N
         jBtnTutup.setText("Tutup");
@@ -281,7 +285,7 @@ public class FormAturan extends javax.swing.JDialog {
                 jBtnTutupActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(686, 564, 102, 47));
+        getContentPane().add(jBtnTutup, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 560, 120, 47));
 
         jBtnTambahDetailAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/plus_16.png"))); // NOI18N
         jBtnTambahDetailAturan.setText("Tambah");
@@ -290,7 +294,7 @@ public class FormAturan extends javax.swing.JDialog {
                 jBtnTambahDetailAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnTambahDetailAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(673, 154, 109, 36));
+        getContentPane().add(jBtnTambahDetailAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(669, 140, 120, 36));
 
         jBtnHapusDetailAturan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gbr/trash_16.png"))); // NOI18N
         jBtnHapusDetailAturan.setText("Hapus");
@@ -299,7 +303,7 @@ public class FormAturan extends javax.swing.JDialog {
                 jBtnHapusDetailAturanActionPerformed(evt);
             }
         });
-        getContentPane().add(jBtnHapusDetailAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(673, 196, 109, 36));
+        getContentPane().add(jBtnHapusDetailAturan, new org.netbeans.lib.awtextra.AbsoluteConstraints(669, 180, 120, 36));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
