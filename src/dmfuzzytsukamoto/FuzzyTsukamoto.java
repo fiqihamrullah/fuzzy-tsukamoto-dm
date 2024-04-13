@@ -38,6 +38,7 @@ public class FuzzyTsukamoto
         {
             MembershipFunction mfunc= new MembershipFunction();
             Aturan rule = rulebases.get(i);
+            System.out.println("No Aturan : " + rule.getNoAturan());
             double mb[] = new double[rule.getTotalPremises()];
             int idxmb=0;
             for(int j=0;j<rule.getTotalPremises();j++)
@@ -47,8 +48,7 @@ public class FuzzyTsukamoto
                 if (attrpasien.getJenisVar()==0) 
                 {
                     double nilai = Double.parseDouble(attrpasien.getNilai());
-                    mb[idxmb] = mfunc.countMF(nilai, rule.getPremise(j));
-                    System.out.println( mb[idxmb]);
+                    mb[idxmb] = mfunc.countMF(nilai, rule.getPremise(j));                   
                 }else 
                 {
                     if (attrpasien.getNilai().equals(rule.getPremise(j).getNmhimp()))
@@ -58,9 +58,11 @@ public class FuzzyTsukamoto
                         mb[idxmb]=0;
                     }
                 }
+                 System.out.println("mf :" + mb[idxmb]);
                 idxmb++;
             }
             double alphapredikat = min(mb);
+            System.out.println("Alpha Predicate :" + alphapredikat);
             sumalpha += alphapredikat; 
             double z=0;
             
